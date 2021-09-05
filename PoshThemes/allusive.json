@@ -52,6 +52,16 @@
           }
         },
         {
+          "type": "java",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#4063D8",
+          "properties": {
+            "prefix": " \uE738 "
+          }
+        },
+        {
           "type": "spotify",
           "style": "plain",
           "foreground": "#1BD760",
