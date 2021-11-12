@@ -14,6 +14,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'artur-shaik/vim-javacomplete2'
 
 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
@@ -29,6 +30,7 @@ nmap ++ <plug>NERDCommenterToggle
 " open NERDTree automatically
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * NERDTree
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 let g:NERDTreeGitStatusWithFlags = 1
 "let g:WebDevIconsUnicodeDecorateFolderNodes = 1
