@@ -25,6 +25,8 @@ call plug#end()
 inoremap jk <ESC>
 nmap <C-n> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle
+nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
+nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
 nmap ++ <plug>NERDCommenterToggle
 
 " open NERDTree automatically
