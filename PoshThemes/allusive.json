@@ -62,6 +62,16 @@
             "stopped_icon": "\uF04D ",
             "track_separator": " - "
           }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "properties": {
+            "template": " \uE235 {{ .Full }} "
+          }
         }
       ]
     }
