@@ -75,21 +75,14 @@
         },
         {
           "type": "python",
-          "style": "powerline",
+          "style": "plain",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#100e23",
-          "background": "#906cff",
+          "foreground": "#D0666F",
           "properties": {
-            "template": " \uE235 {{ .Full }} "
-          }
-        },
-        {
-          "type": "python",
-          "style": "powerline",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#100e23",
-          "background": "#906cff",
-          "properties": {
+            "display_mode": "environment",
+            "prefix": "<#5FAAE8>conda:(</>",
+            "postfix": "<#5FAAE8>)</>",
+
             "template": " \uE235 {{ .Full }} "
           }
         }
