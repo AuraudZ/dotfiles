@@ -35,6 +35,16 @@
           }
         },
         {
+          "type": "python",
+          "style": "plain",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#5FAAE8",
+          "properties": {
+            "display_mode": "environment",
+            "template": " \uE235 {{.Full}} {{.Venv}} "
+          }
+        },
+        {
           "type": "exit",
           "style": "plain",
           "foreground": "#DCB977",
@@ -71,19 +81,6 @@
             "paused_icon": "\uF8E3 ",
             "stopped_icon": "\uF04D ",
             "track_separator": " - "
-          }
-        },
-        {
-          "type": "python",
-          "style": "plain",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#D0666F",
-          "properties": {
-            "display_mode": "environment",
-            "prefix": "<#5FAAE8>conda:(</>",
-            "postfix": "<#5FAAE8>)</>",
-
-            "template": " \uE235 {{ .Full }} "
           }
         }
       ]
