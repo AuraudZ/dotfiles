@@ -2,7 +2,7 @@
 
 $hasOhMyPosh = Import-Module oh-my-posh -MinimumVersion 3.0 -PassThru -ErrorAction SilentlyContinue
 if ($hasOhMyPosh) {
-    $themePath = '~/.config/powershell/PoshThemes/TylerLeonhardt.json'
+    $themePath = '~/.config/powershell/PoshThemes/allusive.json'
     if (Test-Path $themePath) {
         Set-PoshPrompt -Theme $themePath
     } else {
