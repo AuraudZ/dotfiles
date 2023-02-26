@@ -12,6 +12,5 @@ function Set-FileDate {
 Set-Alias Touch Set-FileDate -Description "Updates the LastWriteTime for the file(s)"
 Set-Alias q exit -Description "Quits the current script"
 Set-Alias c clear -Description "Shorter way to clear the screen"
-Import-Module oh-my-posh
 oh-my-posh prompt init pwsh --config https://raw.githubusercontent.com/AllusiveWheat/dotfiles/master/PoshThemes/allusive.json| Invoke-Expression
 Import-Module Terminal-Icons
