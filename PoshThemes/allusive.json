@@ -82,7 +82,7 @@
         },
         {
   "type": "rust",
-  "style": "powerline",
+  "style": "plain",
   "powerline_symbol": "",
   "foreground": "#193549",
   "background": "#99908a",
