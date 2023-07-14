@@ -79,7 +79,15 @@
           },
           "style": "plain",
           "type": "spotify"
-        }
+        },
+        {
+  "type": "rust",
+  "style": "powerline",
+  "powerline_symbol": "",
+  "foreground": "#193549",
+  "background": "#99908a",
+  "template": "  {{ .Full }} "
+}
       ],
       "type": "prompt"
     }
