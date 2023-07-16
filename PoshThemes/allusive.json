@@ -84,8 +84,7 @@
   "type": "rust",
   "style": "plain",
   "powerline_symbol": "",
-  "foreground": "#193549",
-  "background": "#99908a",
+  "foreground": "#f74b00",
   "template": "  {{ .Full }} "
 }
       ],
