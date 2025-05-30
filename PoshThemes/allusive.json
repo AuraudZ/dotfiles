@@ -86,14 +86,6 @@
   "powerline_symbol": "",
   "foreground": "#f74b00",
   "template": "  {{ .Full }} "
-},
-        {
-  "type": "cmake",
-  "style": "plain",
-  "powerline_symbol": "",
-  "display_mode": "context",
-  "foreground": "#1e2a96",
-  "template": "   cmake {{ .Full }} "
 }
       ],
       "type": "prompt"
