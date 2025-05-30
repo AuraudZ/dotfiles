@@ -89,10 +89,10 @@
 },
         {
   "type": "cmake",
-  "style": "powerline",
+  "style": "plain",
   "powerline_symbol": "",
-  "foreground": "#E8EAEE",
-  "background": "#1E9748",
+  "display_mode": "context",
+  "foreground": "#1e2a96",
   "template": "   cmake {{ .Full }} "
 }
       ],
